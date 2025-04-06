@@ -14,7 +14,7 @@ from pyomeca import Markers, Analogs
 from scipy.signal import find_peaks, butter, filtfilt
 
 # %% Configuration des chemins
-WRK_PATH = r'/home/romain/MEGA/ENS/EC 2.1 SVS/Memoire/Recueil de donnees'
+WRK_PATH = r'/home/user/path'
 
 DAT_PATH = os.path.join(WRK_PATH, "1A_deadlift/Data")
 os.chdir(WRK_PATH)
