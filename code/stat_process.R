@@ -14,7 +14,7 @@ library(psych)         # Statistiques descriptives
 
 # ---- Configuration du chemin  ----
 # Définir le chemin du répertoire de travail
-WRK_PATH <- "/home/romain/MEGA/ENS/EC 2.1 SVS/Memoire/Recueil de donnees"
+WRK_PATH <- "/home/user/path"
 
 # Changer le répertoire de travail
 setwd(WRK_PATH)
