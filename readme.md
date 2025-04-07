@@ -5,8 +5,9 @@
 ---
 
 ## Description
-Évaluer l’effet du port d’une ceinture de force homologuée IPF sur la production de force maximale et la cinématique articulaire du tronc lors d’une tâche isométrique en position de départ au soulevé de terre chez des athlètes entraînés en force athlétique
-Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en position initiale du soulevé de terre dans trois conditions randomisées : sans ceinture (NB), ceinture desserrée (LB) et ceinture serrée (WB). La force maximale produite et la variation de l'angle de la colonne ont été mesurés via plateforme de force et motion capture (QTL)
+Évaluer l’effet du port d’une ceinture de force homologuée IPF sur la production de force maximale et la cinématique articulaire du tronc lors d’une tâche isométrique en position de départ au soulevé de terre chez des athlètes entraînés en force athlétique.
+
+Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en position initiale du soulevé de terre dans trois conditions randomisées : sans ceinture (NB), ceinture desserrée (LB) et ceinture serrée (WB). La force maximale produite et la variation de l'angle de la colonne ont été mesurés via plateforme de force et motion capture (QTM).
 
 ---
 
