@@ -49,7 +49,12 @@ Contient toutes les données brutes expérimentales, principalement des fichiers
 
 ## Utilisation
 1. Modifier `WRK_PATH` dans les scripts.  
-2. Exécuter :  
+2. Prérequis :
+  Bibliothèques python :  
+  `numpy`, `pandas`, `seaborn`, `matplotlib`, `pyomeca`, `scipy`
+  Packages R :  
+  `tidyverse`, `rstatix`, `ggplot2`, `psych`, `readxl`
+3. Exécuter :  
    ```bash
    python data_process.py  # Traitement des données
    Rscript stat_process.R  # Analyses statistiques
