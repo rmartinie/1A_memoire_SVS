@@ -45,20 +45,28 @@ Dossier contenant les données traitées et prêtes pour l'analyse:
 Contient toutes les données brutes expérimentales, principalement des fichiers .c3d et les données brutes (pseudonymisées) des participants
 
 
----
+---## Utilisation
 
-## Utilisation
-1. Modifier `WRK_PATH` dans les scripts.  
-2. Prérequis :
+### Configuration
+1. Modifiez la variable `WRK_PATH` dans les scripts pour définir votre répertoire de travail.
 
-  Bibliothèques python :  
-  `numpy`, `pandas`, `seaborn`, `matplotlib`, `pyomeca`, `scipy`
+### Prérequis
 
-  Packages R :  
-  `tidyverse`, `rstatix`, `ggplot2`, `psych`, `readxl`
-  
-3. Exécuter :  
-   ```bash
-   python data_process.py  # Traitement des données
-   Rscript stat_process.R  # Analyses statistiques
-   ```
+#### Python
+```bash
+pip install numpy pandas seaborn matplotlib pyomeca scipy
+```
+
+#### R
+```bash
+install.packages(c("tidyverse", "rstatix", "ggplot2", "psych", "readxl"))
+```
+
+### Exécution
+```bash
+# Traitement des données
+python data_process.py
+
+# Analyses statistiques
+Rscript stat_process.R
+```
