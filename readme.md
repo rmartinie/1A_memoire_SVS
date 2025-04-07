@@ -56,6 +56,7 @@ Contient toutes les données brutes expérimentales, principalement des fichiers
 
   Packages R :  
   `tidyverse`, `rstatix`, `ggplot2`, `psych`, `readxl`
+  
 3. Exécuter :  
    ```bash
    python data_process.py  # Traitement des données
