@@ -9,7 +9,6 @@ Romain MARTINIE & Léonine ROUANET (ENS 2SEP) sous la direction de Germain FAITY
 
 Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en position initiale du soulevé de terre dans trois conditions randomisées : sans ceinture (NB), ceinture desserrée (LB) et ceinture serrée (WB). La force maximale produite et la variation de l'angle de la colonne ont été mesurés via plateforme de force et motion capture (QTM).
 
----
 
 ## Structure
 
@@ -28,7 +27,6 @@ Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en p
     └── ...                       # Fichiers .c3d 
 ```
 
----
 
 ## Utilisation
 
