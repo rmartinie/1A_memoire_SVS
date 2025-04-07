@@ -11,23 +11,38 @@ Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en p
 ---
 
 ## Structure
+# Structure du Projet
 
+```
 ├── code/
-│   ├── data_process.py  # Main data processing pipeline
-│   ├── functions.py     # Helper functions for biomechanical calculations
-│   └── stat_process.R   # Statistical analysis in R
+│   ├── data_process.py   # Traitement des données
+│   ├── functions.py      # Fonctions associées
+│   └── stat_process.R    # Analyse statistique
 │
 ├── processed_data/
-│   ├── dataframe.xlsx   # Processed biomechanical data
-│   └── subject_data.xlsx # Processed participant data
+│   ├── dataframe.xlsx    # Données traités
+│   └── subject_data.xlsx # Données des participants traitées
 │
-└── raw_data/           # Raw experimental data
-    └── ...             # .c3d files and other raw inputs
+└── raw_data/            # Données brutes
+    ├── donnees_participants.xlsx # Données brutes pseudonymisées des sujets
+    └── ...              # .c3d files and other raw inputs
+```
 
-- `data_process.py` : Traitement des données 
-- `functions.py` : Fonctions auxiliaires
-- `stat_process.R` : Analyses statistiques
-- `dataframe.xlsx` : Données traitées exportées 
-- `subject_data.xlsx` : Données des participants
+## Description des Dossiers
+
+### code/
+Ce dossier contient tous les scripts nécessaires pour le traitement et l'analyse des données:
+- `data_process.py`: Fichier principal de traitement des données
+- `functions.py`: Fonctions utilitaires pour les calculs biomécaniques
+- `stat_process.R`: Scripts d'analyse statistique en R
+
+### processed_data/
+Dossier contenant les données traitées et prêtes pour l'analyse:
+- `dataframe.xlsx`: Données traitées (Fmax, DFlex)
+- `subject_data.xlsx`: Informations traitées sur les participants
+
+### raw_data/
+Contient toutes les données brutes expérimentales, principalement des fichiers .c3d et les données brutes (pseudonymisées) des participants
+
 
 ---
