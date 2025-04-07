@@ -20,30 +20,13 @@ Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en p
 │   └── stat_process.R            # Analyse statistique
 │
 ├── processed_data/
-│   ├── dataframe.xlsx            # Données traitées
-│   └── subject_data.xlsx         # Données des participants traitées
+│   ├── dataframe.xlsx            # Données traitées (Fmax, dFlex...)
+│   └── subject_data.xlsx         # Données des participants traitées (poids, taille...)
 │
 └── raw_data/                     # Données brutes
     ├── donnees_participants.xlsx # Données brutes pseudonymisées des sujets
     └── ...                       # Fichiers .c3d 
 ```
-
-## Description des Dossiers
-
-### code/
-Ce dossier contient tous les scripts nécessaires pour le traitement et l'analyse des données:
-- `data_process.py`: Fichier principal de traitement des données
-- `functions.py`: Fonctions utilitaires pour les calculs biomécaniques
-- `stat_process.R`: Scripts d'analyse statistique en R
-
-### processed_data/
-Dossier contenant les données traitées et prêtes pour l'analyse:
-- `dataframe.xlsx`: Données traitées (Fmax, DFlex...)
-- `subject_data.xlsx`: Informations traitées sur les participants (poids, taille...)
-
-### raw_data/
-Contient toutes les données brutes expérimentales, principalement des fichiers .c3d et les données brutes (pseudonymisées) des participants
-
 
 ---
 
