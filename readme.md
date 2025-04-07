@@ -13,17 +13,16 @@ Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en p
 ## Structure
 
 ├── code/
-│ ├── data_process.py # Main data processing pipeline
-│ ├── functions.py # Helper functions for biomechanical calculations
-│ └── stat_process.R # Statistical analysis in R
+│   ├── data_process.py  # Main data processing pipeline
+│   ├── functions.py     # Helper functions for biomechanical calculations
+│   └── stat_process.R   # Statistical analysis in R
 │
 ├── processed_data/
-│ ├── dataframe.xlsx # Processed biomechanical data
-│ └── subject_data.xlsx # Processed participant data
+│   ├── dataframe.xlsx   # Processed biomechanical data
+│   └── subject_data.xlsx # Processed participant data
 │
-└── raw_data/ # Raw experimental data
-│ ├── `donnes_participants.xlsx` : Données des participants brutes
-│ └──... # .c3d files and other raw inputs
+└── raw_data/           # Raw experimental data
+    └── ...             # .c3d files and other raw inputs
 
 - `data_process.py` : Traitement des données 
 - `functions.py` : Fonctions auxiliaires
