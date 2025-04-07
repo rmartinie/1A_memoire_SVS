@@ -13,7 +13,7 @@ Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en p
 ## Structure
 
 ```
-├── code/
+├── scripts/
 │   ├── data_process.py           # Traitement des données
 │   ├── functions.py              # Fonctions associées
 │   └── stat_process.R            # Analyse statistique
