@@ -1,6 +1,6 @@
 # Mémoire 1A SVS 2024-2025 : Effet du port de la Ceinture de Force sur la Performance au soulevé de terre chez des sujets entraînés en Force Athlétique
 
-**Auteurs** : Romain MARTINIE & Léonine ROUANET (ENS 2SEP)
+Romain MARTINIE & Léonine ROUANET (ENS 2SEP)
 
 ---
 
@@ -38,11 +38,19 @@ Ce dossier contient tous les scripts nécessaires pour le traitement et l'analys
 
 ### processed_data/
 Dossier contenant les données traitées et prêtes pour l'analyse:
-- `dataframe.xlsx`: Données traitées (Fmax, DFlex)
-- `subject_data.xlsx`: Informations traitées sur les participants
+- `dataframe.xlsx`: Données traitées (Fmax, DFlex...)
+- `subject_data.xlsx`: Informations traitées sur les participants (poids, taille...)
 
 ### raw_data/
 Contient toutes les données brutes expérimentales, principalement des fichiers .c3d et les données brutes (pseudonymisées) des participants
 
 
 ---
+
+## Utilisation
+1. Modifier `WRK_PATH` dans les scripts.  
+2. Exécuter :  
+   ```bash
+   python data_process.py  # Traitement des données
+   Rscript stat_process.R  # Analyses statistiques
+   ```
