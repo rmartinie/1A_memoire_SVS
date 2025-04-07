@@ -20,12 +20,12 @@ Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en p
 │   └── stat_process.R            # Analyse statistique
 │
 ├── processed_data/
-│   ├── dataframe.xlsx            # Données traités
+│   ├── dataframe.xlsx            # Données traitées
 │   └── subject_data.xlsx         # Données des participants traitées
 │
 └── raw_data/                     # Données brutes
     ├── donnees_participants.xlsx # Données brutes pseudonymisées des sujets
-    └── ...                       # .c3d files and other raw inputs
+    └── ...                       # Fichiers .c3d 
 ```
 
 ## Description des Dossiers
