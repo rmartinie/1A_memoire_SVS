@@ -13,18 +13,19 @@ Cinq pratiquants masculins ont réalisé des tirages maximaux isométriques en p
 ## Structure
 
 ```
-├── scripts/
-│   ├── data_process.py           # Traitement des données
-│   ├── functions.py              # Fonctions associées
-│   └── stat_process.R            # Analyse statistique
-│
 ├── processed_data/
 │   ├── dataframe.xlsx            # Données traitées (Fmax, dFlex...)
 │   └── subject_data.xlsx         # Données des participants traitées (poids, taille...)
 │
-└── raw_data/                     # Données brutes
-    ├── donnees_participants.xlsx # Données brutes pseudonymisées des sujets
-    └── ...                       # Fichiers .c3d 
+├── raw_data/                     # Données brutes
+│   ├── donnees_participants.xlsx # Données brutes pseudonymisées des sujets
+│   └── ...                       # Fichiers .c3d 
+│  
+└── scripts/
+    ├── data_process.py           # Traitement des données
+    ├── functions.py              # Fonctions associées
+    └── stat_process.R            # Analyse statistique
+
 ```
 
 
