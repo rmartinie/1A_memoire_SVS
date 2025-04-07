@@ -1,6 +1,6 @@
 # Mémoire 1A SVS 2024-2025 : Effet du port de la Ceinture de Force sur la Performance au soulevé de terre chez des sujets entraînés en Force Athlétique
 
-Romain MARTINIE & Léonine ROUANET (ENS 2SEP) sous la direction de Germain FAITY 
+Romain MARTINIE & Léonine ROUANET (ENS 2SEP) sous la direction de Germain FAITY (ENS 2SEP)
 
 ---
 
